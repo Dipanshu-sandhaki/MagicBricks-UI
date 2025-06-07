@@ -8,7 +8,7 @@ Built using **React + Tailwind CSS + Lucide Icons**, this UI project is part of 
 
 ## 📸 Screenshots
 
-![Home Page Screenshot](screenshots/homepage.png)
+![Home Page Screenshot](screenshot/homepage.png)
 
 ---
 
