@@ -1,26 +1,31 @@
-import React from "react"
+import React from "react";
+import ownerImg from "../assets/owner-properties.jpg";
+import projectsImg from "../assets/projects.jpg";
+import readyImg from "../assets/readyTomove.jpeg";
+import budgetImg from "../assets/budgetHomes.jpg";
+
 const categories = [
   {
     title: "Owner Properties",
     count: "55204",
-    img: "/src/assets/owner-properties.jpg",
+    img: ownerImg,
   },
   {
     title: "Projects",
     count: "999",
-    img: "/src/assets/projects.jpg",
+    img: projectsImg,
   },
   {
     title: "Ready to move-in",
     count: "48293",
-    img: "/src/assets/readyTomove.jpeg",
+    img: readyImg,
   },
   {
     title: "Budget Homes",
     count: "1528",
-    img: "/src/assets/budgetHomes.jpg",
+    img: budgetImg,
   },
-]
+];
 
 const PropertyCategory = () => {
   return (
@@ -39,7 +44,7 @@ const PropertyCategory = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default PropertyCategory
+export default PropertyCategory;

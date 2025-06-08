@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-const images = [
-  "/src/assets/banner1.jpg",
-  "/src/assets/banner2.jpeg",
-  "/src/assets/banner3.jpeg",
-  "/src/assets/banner4.jpg",
-];
+import banner1 from "../assets/banner1.jpg";
+import banner2 from "../assets/banner2.jpeg";
+import banner3 from "../assets/banner3.jpeg";
+import banner4 from "../assets/banner4.jpg";
+
+const images = [banner1, banner2, banner3, banner4];
 
 const AdBanner = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -15,9 +15,8 @@ const AdBanner = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // change every 3 seconds
-
-    return () => clearInterval(interval); // cleanup
+    }, 3000);
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -33,7 +32,7 @@ const AdBanner = () => {
         />
       ))}
 
-      {/* Dots for navigation (optional) */}
+      {/* Dots */}
       <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-2">
         {images.map((_, index) => (
           <div
