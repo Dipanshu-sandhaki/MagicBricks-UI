@@ -61,5 +61,5 @@ Then, open http://localhost:5173 in your browser to see it live.
 Dipanshu Sandhaki
 💼 MCA Student | Web Developer
 
-🔗 LinkedIn Profile
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/dipanshusandhaki/) 
 📫 Email: dipanshuroy6@gmail.com
