@@ -30,6 +30,12 @@ Built using **React + Tailwind CSS + Lucide Icons**, this UI project is part of 
 
 ---
 
+## 🌐 Live Demo
+
+🔗 [Click here to view the live project](https://magic-bricks-ui.vercel.app/)
+
+---
+
 ## 🧑‍💻 How to Run Locally
 
 Make sure you have **Node.js** and **npm** installed.
@@ -40,14 +46,20 @@ Make sure you have **Node.js** and **npm** installed.
 git clone https://github.com/Dipanshu-sandhaki/MagicBricks-UI.git
 cd MagicBricks-UI/magic-bricks-landingpage
 2. Install dependencies
+bash
+Copy
+Edit
 npm install
 3. Start the development server
+bash
+Copy
+Edit
 npm run dev
 Then, open http://localhost:5173 in your browser to see it live.
 
 🙋‍♂️ Author
 Dipanshu Sandhaki
-💼 MCA Student | Web Developer | 
+💼 MCA Student | Web Developer
 
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/dipanshu-sandhaki) 
+🔗 LinkedIn Profile
 📫 Email: dipanshuroy6@gmail.com
